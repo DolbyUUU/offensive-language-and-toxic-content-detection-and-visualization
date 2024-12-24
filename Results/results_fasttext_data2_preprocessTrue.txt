@@ -1,0 +1,34 @@
+Report for Task A:
+              precision    recall  f1-score   support
+
+         NOT       1.00      0.84      0.91      2991
+         OFF       0.86      1.00      0.93      3002
+
+    accuracy                           0.92      5993
+   macro avg       0.93      0.92      0.92      5993
+weighted avg       0.93      0.92      0.92      5993
+
+
+Report for Task B:
+              precision    recall  f1-score   support
+
+         UNT       0.58      0.95      0.72      1550
+         TIN       0.84      0.28      0.42      1452
+
+    accuracy                           0.63      3002
+   macro avg       0.71      0.61      0.57      3002
+weighted avg       0.71      0.63      0.58      3002
+
+
+Report for Task C:
+              precision    recall  f1-score   support
+
+         IND       1.00      0.00      0.00       349
+         GRP       0.73      0.84      0.78      1057
+         OTH       0.15      0.36      0.21       140
+
+    accuracy                           0.60      1546
+   macro avg       0.63      0.40      0.33      1546
+weighted avg       0.74      0.60      0.55      1546
+
+
