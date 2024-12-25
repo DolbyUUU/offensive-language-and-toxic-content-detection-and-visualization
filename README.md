@@ -69,10 +69,11 @@ Below are examples of **LIME (Local Interpretable Model-Agnostic Explanations)**
    - `preprocessTrue`: With tweet text preprocessing
    - `preprocessFalse`: Without tweet text preprocessing
 2. **`model_fasttext_a/b/c.bin`**: Saved FastText models for the three classification levels.
+   
    **Note**: The model checkpoint files (`model_fasttext_a.bin`, `model_fasttext_b.bin`, `model_fasttext_c.bin`) are too large to upload to this repository.
-3. **`train_data_fasttext_a/b/c.txt`**: Processed training datasets for FastText (in `.txt` format).
-4. **`lime_notes.docx`**: Notes on using the LIME technique for interpretability and visualization.
-5. **`documentation.docx`**: Detailed documentation about the project.
+4. **`train_data_fasttext_a/b/c.txt`**: Processed training datasets for FastText (in `.txt` format).
+5. **`lime_notes.docx`**: Notes on using the LIME technique for interpretability and visualization.
+6. **`documentation.docx`**: Detailed documentation about the project.
 
 ---
 
@@ -88,6 +89,7 @@ Below are examples of **LIME (Local Interpretable Model-Agnostic Explanations)**
 ### SOLID (Semi-Supervised Offensive Language Identification Dataset)
 - 9 million English tweets created using a semi-supervised approach.
 - Significantly larger dataset to improve model performance.
+  
 **Note**: The `SOLID Dataset` folder is too large to include in this repository. You can access it via the [HuggingFace Page for SOLID](https://huggingface.co/datasets/tharindu/SOLID/tree/refs%2Fconvert%2Fparquet/default/train).
 
 ---
