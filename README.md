@@ -27,6 +27,27 @@ This repository is ideal for researchers, developers, and data scientists workin
 
 ---
 
+## 📊 Visualization Examples for Explainability
+
+Below are examples of **LIME (Local Interpretable Model-Agnostic Explanations)** visualizations. The project interprets model predictions by highlighting the influential words or regions for offensive language classification.
+
+<p align="center">
+  <img src="Figures/fig_explainability_example_1" alt="LIME Explanation Example 1" width="55%">
+  <br> Figure 1: LIME visualization for text classification (Example 1)
+</p>
+
+<p align="center">
+  <img src="Figures/fig_explainability_example_2" alt="LIME Explanation Example 2" width="55%">
+  <br> Figure 2: LIME visualization for text classification (Example 2)
+</p>
+
+<p align="center">
+  <img src="Figures/fig_explainability_example_3" alt="LIME Explanation Example 3" width="55%">
+  <br> Figure 3: LIME visualization for text classification (Example 3)
+</p>
+
+---
+
 ## 📂 Project Structure
 
 ### **Folders**
