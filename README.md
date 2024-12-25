@@ -33,17 +33,17 @@ Below are examples of **LIME (Local Interpretable Model-Agnostic Explanations)**
 
 <p align="center">
   <img src="Figures/fig_explainability_example_1.png" alt="LIME Explanation Example 1" width="95%">
-  <br> Figure 1: LIME visualization for text classification (Example 1)
+  <br> Figure 1: LIME Visualization for Offensive Language Detection
 </p>
 
 <p align="center">
   <img src="Figures/fig_explainability_example_2.png" alt="LIME Explanation Example 2" width="95%">
-  <br> Figure 2: LIME visualization for text classification (Example 2)
+  <br> Figure 2: LIME Visualization for Categorization of Offensive Language
 </p>
 
 <p align="center">
   <img src="Figures/fig_explainability_example_3.png" alt="LIME Explanation Example 3" width="95%">
-  <br> Figure 3: LIME visualization for text classification (Example 3)
+  <br> Figure 3: LIME Visualization for Target Identification
 </p>
 
 ---
@@ -61,18 +61,15 @@ Below are examples of **LIME (Local Interpretable Model-Agnostic Explanations)**
 4. **`settings.py`**: Contains hyperparameters and other settings shared across the other Python scripts.
 
 ### **Files**
-1. **`results_fasttext_dataX_preprocessY.txt`**: Six files storing classification reports for FastText models across three levels:
+1. **`Results/results_fasttext_dataX_preprocessY.txt`**: Six files storing classification reports for FastText models across three levels:
    - `data1`: OLID only
    - `data2`: SOLID only
    - `data3`: OLID + SOLID
    - `preprocessTrue`: With tweet text preprocessing
    - `preprocessFalse`: Without tweet text preprocessing
 2. **`model_fasttext_a/b/c.bin`**: Saved FastText models for the three classification levels.
-   
    **Note**: The model checkpoint files (`model_fasttext_a.bin`, `model_fasttext_b.bin`, `model_fasttext_c.bin`) are too large to upload to this repository.
-4. **`train_data_fasttext_a/b/c.txt`**: Processed training datasets for FastText (in `.txt` format).
-5. **`lime_notes.docx`**: Notes on using the LIME technique for interpretability and visualization.
-6. **`documentation.docx`**: Detailed documentation about the project.
+3. **`Documentation.docx`**: Detailed documentation about the project.
 
 ---
 
