@@ -53,7 +53,6 @@ Below are examples of **LIME (Local Interpretable Model-Agnostic Explanations)**
 ### **Folders**
 1. **OLID Dataset**: Contains the training set, test set labels, and test set tweets for OLID.
 2. **SOLID Dataset**: Contains the training set, test set labels, and test set tweets for SOLID.
-3. **Miscellaneous**: Contains additional files such as model outputs, reference papers, and unused materials.
 
 ### **Codes**
 1. **`train_fasttext.py`**: A Python script to train FastText models on OLID and/or SOLID datasets. It supports three classification levels.
