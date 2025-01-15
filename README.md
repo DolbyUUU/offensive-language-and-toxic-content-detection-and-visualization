@@ -1,8 +1,8 @@
-# 🚀 FastText-Based Offensive Language Detection
+# 🚀 Offensive Language and Toxic Content Detection with Visualization
 
 ## 📖 Overview
 
-This repository contains the implementation of a **FastText-based machine learning model** for identifying offensive language in tweets. The project uses the **OLID** and **SOLID datasets** for training and testing. It also integrates the **LIME (Local Interpretable Model-Agnostic Explanations)** technique to enhance interpretability by visually showing key words that influenced the model's decisions.
+This repository contains the implementation of a **FastText-based machine learning model** for identifying offensive language and toxic content in tweets. The project uses the **OLID** and **SOLID datasets** for training and testing. It also integrates the **LIME (Local Interpretable Model-Agnostic Explanations)** technique to enhance local interpretability and explanability by visually showing key words that influenced the model's decisions.
 
 The project is designed to classify offensive language at three levels:
 1. **Offensive Language Detection**: Determines whether a text is offensive or not.
